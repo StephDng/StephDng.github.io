@@ -1,0 +1,45 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url("img/AdobeStock_372449721.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #1b1c2a;
+    color: white;
+}
+
+.moi{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1{
+    margin-left: 8%;
+    font-size: xxx-large;
+}
+
+h3{
+    color: #C36A10;
+}
+
+.pro{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.date{
+    font-size: small;
+    color: #658aa3;
+}
+
+.ecole, .entreprise, .ville, .mission, .parcours{
+    font-size: 13px;
+}
+
+div>ul>li{
+    margin-top: 10px;
+}
+
+
